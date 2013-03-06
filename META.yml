@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,13 +20,14 @@ no_index:
 provides:
   App::ph:
     file: lib/App/ph.pm
-    version: 0.01
+    version: 0.02
 requires:
   IPC::System::Simple: 0
   Pithub: 0
+  Sys::Hostname: 0
   Term::ReadKey: 0
   autodie: 0
   parent: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

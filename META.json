@@ -4,7 +4,7 @@
       "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -34,6 +34,7 @@
          "requires" : {
             "IPC::System::Simple" : "0",
             "Pithub" : "0",
+            "Sys::Hostname" : "0",
             "Term::ReadKey" : "0",
             "autodie" : "0",
             "parent" : "0"
@@ -43,7 +44,7 @@
    "provides" : {
       "App::ph" : {
          "file" : "lib/App/ph.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -52,5 +53,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
